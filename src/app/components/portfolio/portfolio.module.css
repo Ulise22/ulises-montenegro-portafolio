@@ -1,0 +1,16 @@
+.portfolio {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.portfolio__title {
+    font-size: 32px;
+    line-height: 20px;
+}
+
+.portfolio__container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

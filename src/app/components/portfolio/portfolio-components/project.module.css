@@ -1,0 +1,48 @@
+.project {
+    width: 350px;
+    border: 1px solid #ccc;
+}
+
+.project__container {
+    padding: 15px;
+}
+
+.project__image {
+    width: 350px;
+}
+
+.project__title {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.project__btn {
+    color: #33FF00;
+    background-color: #111;
+    border: none;
+    border-radius: 7px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.project__btn:hover {
+    background-color: #33FF00;
+    color: #111;
+    transition: .3s ease;
+}
+
+@media screen and (max-width: 660px) {
+    .project {
+        max-width: 350px;
+        width: 95%;
+    }
+
+    .project__image {
+        max-width: 350px;
+        width: 100%;
+    }
+}
