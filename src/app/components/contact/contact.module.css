@@ -60,9 +60,17 @@
     transition: all .3s ease;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1220px) {
     .contact__container {
-        flex-direction: column;
+        width: 95%;
+    }
+
+    .contact__data {
+        width: 50%;
+    }
+
+    .contact__form {
+        width: 50%;
     }
 
     .contact__form__input {
@@ -74,5 +82,19 @@
     .contact__form__btn {
         width: 90%;
         margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .contact__container {
+        flex-direction: column;
+    }
+
+    .contact__data {
+        width: 100%;
+    }
+
+    .contact__form {
+        width: 100%;
     }
 }

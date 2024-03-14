@@ -22,6 +22,11 @@
     font-weight: 600;
 }
 
+.navbar__menu__item:hover {
+    cursor: pointer;
+    color: #666;
+}
+
 @media screen and (max-width: 660px) {
     .navbar__icons__container {
         display: block;

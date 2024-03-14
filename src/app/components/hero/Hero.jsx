@@ -7,7 +7,7 @@ import styles from './hero.module.css'
 
 export default function Hero () {
     return(
-        <section className={styles.hero}>
+        <section name='home' className={styles.hero}>
             <article className={styles.hero__container}>
                 <Image className={styles.hero__image} src={profile} alt='' />
                 <div className={styles.hero__info}>
