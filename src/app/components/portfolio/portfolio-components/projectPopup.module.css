@@ -1,0 +1,211 @@
+.project__btn {
+    color: #33FF00;
+    background-color: #111;
+    border: none;
+    border-radius: 7px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.project__btn:hover {
+    background-color: #33FF00;
+    color: #111;
+    transition: .3s ease;
+}
+
+/* POPUP */
+
+.popup {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.popup__bg {
+    background-color: #11111197;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.popup__container {
+    background-color: #fff;
+    position: fixed;
+    max-width: 800px;
+    width: 100%;
+}
+
+.popup__close {
+    position: absolute;
+    z-index: 5;
+    top: -45px;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.popup__image__container {
+    position: relative;
+    display: flex;
+}
+
+.popup__image__btn {
+    position: absolute;
+    border-radius: 50%;
+    border: none;
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    top: calc(50% - 20px);
+}
+
+.popup__image__btn.right {
+    right: 5px;
+}
+
+.popup__image__btn.left {
+    left: 5px;
+}
+
+.popup__close:hover {
+    background-color: #ccc;
+    transition: .3s ease;
+}
+
+.popup__image__btn:hover {
+    background-color: #ccc;
+}
+
+.popup__image {
+    width: 100%;
+    height: auto;
+}
+
+.popup__info {
+    padding: 10px 40px;
+}
+
+.popup__info__title {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.popup__info__subtitle {
+    font-size: 26px;
+    line-height: 26px;
+    color: #8C8C8C;
+}
+
+/* BTNS */
+
+.popup__info__btns {
+    display: flex;
+    gap: 20px;
+}
+
+.popup__info_webpage {
+    background-color: #FF9900;
+    color: #fff;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.popup__info_webpage:hover {
+    box-shadow: 0 0px 10px 1px #FF9900;
+    transition: .3s ease;
+}
+
+.popup__info_github {
+    background-color: #2B2B2B;
+    color: #33FF00;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.popup__info_github:hover {
+    box-shadow: 0 0px 10px 1px #606060;
+    transition: .3s ease;
+}
+
+@media screen and (max-width: 1220px) {
+    .popup__container {
+        max-width: 650px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .popup__container {
+        max-width: 650px;
+        width: 95%;
+    }
+
+    .popup__close {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .popup__image__btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 35px;
+        width: 35px;
+    }
+
+    .popup__info {
+        padding: 10px 20px;
+    }
+    
+    .popup__info__title {
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 28px;
+    }
+    
+    .popup__info__subtitle {
+        font-size: 20px;
+        line-height: 18px;
+    }
+
+    .popup__info__btns {
+        display: flex;
+        gap: 10px;
+    }
+
+    .popup__info_webpage {
+        padding: 10px 16px;
+    }
+
+    .popup__info_github {
+        padding: 10px 16px;
+    }
+}
