@@ -62,7 +62,7 @@ export default function Portfolio () {
                 img4={windbnb4} 
                 title='Windbnb'
                 subtitle='Un Desafío de DevChallenge Hecho con React y Typescript'
-                text='Utilizando React, completé el reto de devChallenges.io, donde tomando un archivo .json para que, usando los datos que este archivo provee, armar una app en la que se muestran diferentes inmuebles, que pueden ser filtrados por la locación y por la cantidad máxima de personas que pueden habitar dicho inmueble.'
+                text='Utilizando React y Typescript, completé el reto de devChallenges.io, donde tomando los datos provistos por un archivo .json, pude armar una app en la que se muestran diferentes inmuebles, que pueden ser filtrados por la locación y por la cantidad máxima de personas que pueden habitar dicho inmueble.'
                 github='https://github.com/Ulise22/windbnb-challenge'
                 webUrl='https://windbnb-challenge-nu.vercel.app/'
                 />
@@ -72,7 +72,7 @@ export default function Portfolio () {
                 img4={ecommerce4} 
                 title='E-Commerce Product Page'
                 subtitle='Un Desafío de FrontendMentor Hecho con React'
-                text='Completé el reto &quot;E-commerce product page&quot; de Frontend Mentor usando React, creando una app totalmente que también se adapta a dispositivos móbiles. En la aplicación se puede hacer click a cualquiera de las imagenes para verlas en mejor calidad, y se puede cambiar a cualquier otra imagen que se desee ver, además se puede agregar y quitar la cantidad deseada del producto al carrito.'
+                text='Completé el reto &quot;E-commerce product page&quot; de Frontend Mentor usando React, creando una app que se adapta a dispositivos móbiles. En la aplicación se puede hacer click a cualquiera de las imagenes para verlas en mejor calidad, y se puede cambiar a cualquier otra imagen que se desee ver, además se puede agregar y quitar la cantidad deseada del producto al carrito.'
                 github='https://github.com/Ulise22/e-comerce-product-page'
                 webUrl='https://e-comerce-product-page.vercel.app/'
                 />
@@ -82,7 +82,7 @@ export default function Portfolio () {
                 img4={randomQuote4} 
                 title='Random Quote'
                 subtitle='Un Desafío de DevChallenge Hecho con React y Typescript'
-                text='Utilizando React, Typescript y consumiendo la API de Quote-Garden fui capaz de terminar el reto de devChallenge, donde consumí la API dada por la página, para mostrar una cita aleatoria en pantalla, que cambia cada vez que se recarga la app o cuando se hace click en el botón &quot;random&quot;, con el nombre del autor debajo, que al hacer click en el nombre, te muestra una lista de todas sus frases disponibles en la API.'
+                text='Utilizando React, Typescript y consumiendo la API de Quote-Garden fui capaz de terminar el reto de devChallenge, donde consumí la API dada por la página, para mostrar una cita aleatoria en pantalla, que cambia cada vez que se recarga la app o cada vez que se hace click en el botón &quot;random&quot;, con el nombre del autor debajo, que al hacer click en el nombre, te muestra una lista de todas sus frases disponibles en la API.'
                 github='https://github.com/Ulise22/random-quote-generator-devchallenge'
                 webUrl='https://random-quote-generator-ulise22.vercel.app/'
                 />
@@ -92,7 +92,7 @@ export default function Portfolio () {
                 img4={dyj4} 
                 title='Defensa y Justicia Fanpage'
                 subtitle='Una App Sobre la Entidad Polideportiva Defensa y Justicia Usando Next y Redux'
-                text='Utilizando React 13, hice una página web sobre el club de fútbol Defensa y Justicia, donde muestro algunas noticias sobre el club y donde integré una especie de tienda online, en la que pueden agregarse y eliminarse productos del club del carrito, haciendo uso de un estado global con Redux para conseguirlo.'
+                text='Utilizando React 13, hice una página web sobre el club de fútbol Defensa y Justicia, donde muestro algunas noticias sobre el club y donde integré una tienda online, en la que pueden agregarse y eliminarse productos del club del carrito, haciendo uso de un estado global con Redux para conseguirlo.'
                 github='https://github.com/Ulise22/dyj-fanpage'
                 webUrl='https://dyj-fanpage.vercel.app/'
                 />

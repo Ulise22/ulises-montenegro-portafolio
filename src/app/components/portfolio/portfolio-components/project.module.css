@@ -5,6 +5,9 @@
 
 .project__container {
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project__image {
@@ -26,5 +29,6 @@
     .project__image {
         max-width: 350px;
         width: 100%;
+        height: auto;
     }
 }

@@ -45,8 +45,7 @@
 }
 
 .hero__info__items__btn:hover {
-    color: #222;
-    background-color: #33FF00;
+    box-shadow: 0 0px 10px 1px #606060;
     transition: all .2s ease;
 }
 

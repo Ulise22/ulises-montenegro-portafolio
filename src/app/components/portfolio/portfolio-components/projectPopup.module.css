@@ -11,8 +11,7 @@
 }
 
 .project__btn:hover {
-    background-color: #33FF00;
-    color: #111;
+    box-shadow: 0 0px 10px 1px #606060;
     transition: .3s ease;
 }
 
