@@ -42,7 +42,7 @@ export default function Portfolio () {
                 img4={fullmma4} 
                 title='Fullmma'
                 subtitle='Un Blog Personal Sobre las Artes Marciales Mixtas'
-                text='Haciendo uso de la versión 14 de Next JS, cree una página web, adaptada a disposivos móbiles, donde cubro todo lo relacionado a la UFC y a las artes marciales mixtas en general. Contando con más de 60 artículos por el momento.'
+                text='Haciendo uso de la versión 14 de Next JS, cree una página web, adaptada a disposivos móbiles, donde cubro todo lo relacionado a la UFC y a las artes marciales mixtas en general. Contando con más de 70 artículos por el momento.'
                 github='https://github.com/Ulise22/promma'
                 webUrl='https://fullmma.org/'
                 />
