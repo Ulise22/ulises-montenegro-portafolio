@@ -13,7 +13,7 @@ export default function Contact () {
               Contáctame
             </h2>
             <p> Puedes contactar conmigo dejandome un mensaje, o a través de mis redes sociales para que podamos comenzar a trabajar juntos.</p>
-            <span className={styles.contact__data__icons__container}><Image src={phone} alt='' width={20} /> +54 9 11 6305-7597</span>
+            <span className={styles.contact__data__icons__container}><Image src={phone} alt='' width={20} /> +54 11 7059-4289</span>
             <a className={styles.contact__data__icons__container} href='mailto:ulimontenegro23@gmail.com'><Image src={mail} alt='' width={20} /> ulimontenegro23@gmail.com</a>
             <a className={styles.contact__data__icons__container} href='https://www.linkedin.com/in/ulisesmontenegro/' target='_Blank'><Image src={linkedin} alt='' width={20} /> Ulises Montenegro</a>
           </article>
